@@ -1,0 +1,72 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    width: 80%;
+    gap: 5px;
+    margin: auto;
+    grid-template-rows: repeat(4, 4fr);
+    grid-template-areas:
+     "a b c d" 
+     "e e c d" 
+     "e e f g" 
+     "h h h g";
+}
+
+.a {
+    grid-area: a;
+    border: 3px solid rgb(196, 193, 193);
+    border-radius: 10px 0px 0px 0px;
+    background-color: pink;
+}
+
+.b {
+    grid-area: b;
+    border: 3px solid rgb(196, 193, 193);
+    background-color: aquamarine;
+}
+
+.c {
+    grid-area: c;
+    border: 3px solid rgb(196, 193, 193);
+    background-color: rgb(223, 150, 137);
+}
+
+.d {
+    grid-area: d;
+    border: 3px solid rgb(196, 193, 193);
+    border-radius: 0px 10px 0px 0px;
+    background-color: paleturquoise;
+}
+
+.e {
+    grid-area: e;
+    border: 3px solid rgb(196, 193, 193);
+    background-color: rgb(218, 160, 114);
+}
+
+.f {
+    grid-area: f;
+    border: 3px solid rgb(196, 193, 193);
+    background-color: antiquewhite;
+}
+
+.g {
+    grid-area: g;
+    border: 3px solid rgb(196, 193, 193);
+    border-radius: 0px 0px 7px 0px;
+    background-color: rosybrown;
+}
+
+.h {
+    grid-area: h;
+    border: 3px solid rgb(196, 193, 193);
+    border-radius: 0px 0px 0px 7px;
+    background-color: rgb(138, 240, 44);
+}
+
+div {
+    text-align: center;
+    font-style: initial;
+    color: rgb(146, 137, 11);
+    font-size: 35px;
+}
